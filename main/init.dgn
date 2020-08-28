@@ -1,0 +1,6 @@
+select "IOT"
+select "std"
+led = GpioPinOut(RaspiPin.GPIO_0)
+led.blink(1000,15000)
+while(true)
+sleep(500)
